@@ -1,5 +1,5 @@
 
-# 🧠 Titanic Dataset Preprocessing - By Gee Speck
+# 🧠 Titanic Dataset Preprocessing
 
 This project demonstrates an end-to-end data preprocessing pipeline applied to the **Titanic Dataset**. It focuses on preparing raw data for machine learning by handling missing values, encoding categorical variables, normalizing data, and dealing with outliers. These steps are essential before feeding the data into ML models.
 
