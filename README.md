@@ -61,9 +61,9 @@ We loaded the Titanic dataset using `pandas.read_csv()` and imported necessary l
 
 ### 4. **How do you detect outliers?**
 - Using **boxplots** and **IQR method**:
-  \[
-  \Outlier<Q1−1.5×IQRor>Q3+1.5×IQR
-  \]
+  
+  Outlier<Q1−1.5×IQRor>Q3+1.5×IQR
+  
 
 ### 5. **Why is preprocessing important in ML?**
 - It ensures **data quality**, removes **bias**, and improves **model performance**.
