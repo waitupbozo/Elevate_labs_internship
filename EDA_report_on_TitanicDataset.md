@@ -34,7 +34,7 @@ This report presents an exploratory data analysis of the Titanic dataset. The go
 
 1. Handle missing values:
     - Impute 'Age' with mean
-    - Fill 'Cabin' with 'UNKNOWN'
+    - Fill 'Cabin' with 'UNKNOWN' or else drop the column
     - Fill 'Embarked' with mode
 2. Use `describe()` and `value_counts()` for stats
 
