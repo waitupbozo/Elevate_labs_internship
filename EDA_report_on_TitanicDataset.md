@@ -40,10 +40,10 @@ This report presents an exploratory data analysis of the Titanic dataset. The go
 
 **Insights:**
 
-- Average age ≈ 30
-- Majority were in Pclass 3
-- More males than females
-- Most passengers embarked from Southampton
+- Average age ≈ 30.
+- Majority were in Pclass 3.
+- More males than females.
+- Most passengers embarked from Southampton(S).
 
 ---
 
@@ -57,8 +57,8 @@ This report presents an exploratory data analysis of the Titanic dataset. The go
 
 **Insights:**
 
-- Age and Fare impact survival
-- Pclass shows strong survival influence
+- Age and Fare appear to have some correlation with survival.
+- There might be a relationship between Pclass and survival.
 
 ---
 
@@ -69,11 +69,13 @@ This report presents an exploratory data analysis of the Titanic dataset. The go
 - `scipy.stats`: Chi-square and t-tests
 
 **Tests:**
+- **Chi-Square Test:** p-values less than 0.05 suggest a significant relationship with survival.
+    - Sex: **p < 0.05** (significant)
+    - Pclass: **p < 0.05** (significant)
+    - Embarked: **p < 0.05** (significant)
 
-- **Chi-square (Categorical features)**:
-  - Sex, Pclass, Embarked — all **p < 0.05**
-- **T-Test (Numerical features)**:
-  - Age, Fare — **p < 0.05**
+- **T-Test:** p-values less than 0.05 suggest a significant difference in means between survivors and non-survivors.
+    - Age, Pclass: **p < 0.05**
 
 ---
 
