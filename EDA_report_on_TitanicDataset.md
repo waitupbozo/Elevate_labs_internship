@@ -62,20 +62,7 @@ This report presents an exploratory data analysis of the Titanic dataset. The go
 
 ---
 
-## 🛠️ 5. Feature Engineering (Optional)
-
-**Steps:**
-
-- Create `FamilySize` = `SibSp` + `Parch`
-- Create categorical bins if needed
-
-**Insights:**
-
-- Family size may influence survival odds
-
----
-
-## 📈 6. Statistical Testing
+## 📈 5. Statistical Testing
 
 **Tools:**
 
@@ -90,7 +77,7 @@ This report presents an exploratory data analysis of the Titanic dataset. The go
 
 ---
 
-## ✅ 7. Conclusion
+## ✅ 6. Conclusion
 
 - **Sex**: Females had higher survival rates
 - **Pclass**: Higher classes = better survival
