@@ -44,47 +44,7 @@ We loaded the Titanic dataset using `pandas.read_csv()` and imported necessary l
 
 ---
 
-## 🎤 Interview Questions & Answers
 
-### 1. **What are the different types of missing data?**
-- **MCAR (Missing Completely at Random):** Missingness has no relation to any variable.
-- **MAR (Missing at Random):** Missingness is related to other observed data.
-- **MNAR (Missing Not at Random):** Missingness is related to the unobserved data itself.
-
-### 2. **How do you handle categorical variables?**
-- **Label Encoding:** Assigns a unique number to each category (used here for 'Embarked').
-- **One-Hot Encoding:** Converts each category into a new binary column.
-
-### 3. **What is the difference between normalization and standardization?**
-- **Normalization:** Scales values to a range (typically 0–1).
-- **Standardization:** Scales values based on z-score (mean = 0, std = 1). We used this via `StandardScaler`.
-
-### 4. **How do you detect outliers?**
-- Using **boxplots** and **IQR method**:
-  
-  **Outlier < Q1 − 1.5 × IQR or > Q3 + 1.5 × IQR**
-  
-
-### 5. **Why is preprocessing important in ML?**
-- It ensures **data quality**, removes **bias**, and improves **model performance**.
-- It makes models more **generalizable** and prevents misleading patterns.
-
-### 6. **What is one-hot encoding vs label encoding?**
-- **One-Hot Encoding:** Converts each category into a new column with 0s and 1s.
-- **Label Encoding:** Assigns an integer to each category.
-- Use **one-hot** for **non-ordinal** data, **label** for **ordinal** or tree-based models.
-
-### 7. **How do you handle data imbalance?**
-- **Oversampling (SMOTE)** or **undersampling**.
-- **Class weighting** or **ensemble methods** like **Balanced Random Forest**.
-- **Synthetic data generation**.
-
-### 8. **Can preprocessing affect model accuracy?**
-Absolutely. Poor preprocessing can lead to:
-- **Overfitting/underfitting**
-- **Data leakage**
-- **Reduced accuracy**
-Proper preprocessing boosts model **robustness and performance**.
 
 
 
